@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+
+
+	<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+
+	
+	<title></title>
+
+	<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="icofont/css/icofont.min.css">
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg-light  bg-dark fixed-top">
+ <strong class="text-uppercase text-success ml-xl-5" style="font-size: 40px;"> Abhishek </strong>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto" >
+      <li class="nav-item active">
+        <a class="nav-link ml-lg-5 text-white" class="ml-5" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link ml-lg-5 text-white" href="Service.html">Service</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link ml-lg-5 text-white" href="Aboutme.html">About me</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link ml-lg-5 text-white" href="contact.html">Contact</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav> 
+</div> <br> <br>
+
+
+
+
+
+
+  <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-5 ml-lg-5 my-5 ">
+       <div  class="alert alert-danger text-center font-weight-bold" role="alert" style="font-size: 35px; border-radius: 25px">
+ Welcome to <strong class="text-uppercase" style="font-size: 35px"> Contact </strong>Page:) 
+
+ <button class="btn btn-outline-danger" style="border-radius: 25px">GET STARTED</button>
+</div>
+</div>
+</div>
+</div> <br> <br> <br>
+
+
+
+
+
+                <h2 class="text-center">Drop your message here :)</h2>
+            <div class="container">
+              
+          <div class="row">
+
+            <div class="col-lg-2">
+            </div>
+            
+            <div class="col-md-5 pt-lg-5 ">
+
+              <input type="text" name="" placeholder="Your name" class="form-control"> <br>
+              <input type="text" name="" placeholder="Your email" class="form-control"> <br>
+               <textarea class="form-control" rows="5" id="comment" class="form-control"></textarea> <br>
+               <button style="border-radius: 25px; width: 100px" class="btn btn-outline-danger">SEND</button>
+
+             </div>
+             <div class="col-md-4 ">
+
+              <img src="4040274.jpg" alt="" class="img-fluid">
+            </div>
+              
+            </div>
+         
+        </div> <br> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+          <div class="card-footer bg-dark text-white">
+            <h1 class="text-center" >Connect with us:</h1> <br>
+
+            <div class="row">
+              <div class="col-md-4">
+              </div>
+              <div class="col-md-1">
+
+          <a href="">  <i style="font-size: 50px;color: #00e6ac" class="fa fa-facebook-official" aria-hidden="true"></i></a>
+          </div>
+
+           <div class="col-md-1">
+
+           <a href=""> <i style="font-size: 50px;color: #ff471a" class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+
+            <div class="col-md-1">
+
+           <a href=""> <i style="font-size: 50px;color: #1a8cff" class="fa fa-twitter" aria-hidden="true"></i> </a>
+          </div>
+
+
+           <div class="col-md-1">
+
+         <a href="">   <i style="font-size: 50px;color:  #1a1aff" class="fa fa-linkedin" aria-hidden="true"></i> </a>
+          </div>
+        </div> <br> <br>
+
+        <div class="row">
+
+          <div class="col-md-3 ">
+            <h3>Find me here</h3> <br>
+            <h5> ABC Street , near xyz society</h5> <br>
+
+            <h5>Phone No: 8871856322</h5> <br>
+
+             <h5>Email : xabhi111@gmail.com</h5> <br>
+           </div>
+
+        
+        <div class="col-lg-6">
+        </div>
+
+           <div class="col-md-3">
+            <h3>Find me here</h3> <br>
+            <h5> ABC Street , near xyz society</h5> <br>
+
+            <h5>Phone No: 8871856322</h5> <br>
+
+             <h5>Email : xabhi111@gmail.com</h5> <br>
+           </div>
+         </div>
+       </div>
+      
+
+
+
+
+
+
+</body>
+</html>
